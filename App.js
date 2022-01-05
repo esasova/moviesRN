@@ -5,6 +5,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Detail from './screens/Detail';
 
 
+
 const Stack = createNativeStackNavigator();
 
 const App = () => (
