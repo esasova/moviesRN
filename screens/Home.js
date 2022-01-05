@@ -18,7 +18,7 @@ import {
   getDocumentaryMovies,
 } from "../services/services";
 import react from 'react'
-const dimentions = Dimensions.get("screen");
+const dimensions = Dimensions.get("screen");
 const Home = ( {navigation} ) => {
   const [moviesImages, setMoviesImages] = useState('');
   const [popularMovies, setPopularMovies] = useState('');
@@ -81,7 +81,7 @@ const Home = ( {navigation} ) => {
               <SliderBox
                 images={moviesImages}
                 dotStyle={styles.sliderStyle}
-                sliderBoxHeight={dimentions.height / 1.5}
+                sliderBoxHeight={dimensions.height / 1.5}
                 autoplay={true}
                 circleLoop={true}
               />
